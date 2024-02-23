@@ -130,15 +130,12 @@ main{
         text-decoration: none;
         cursor: pointer;
         margin-left: 16px;
-        font-size: 1rem;
-        
-        
-        
-  }
+        font-size: 1rem;    
+    }
 
-  .confirm-button:hover{
-    background-color: rgb(255, 95, 87);
-    }
+    .confirm-button:hover{
+        background-color: rgb(255, 95, 87);
+    }
 
     h1{
         font-size: 4rem;
