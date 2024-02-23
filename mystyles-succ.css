@@ -136,6 +136,10 @@ main{
         
   }
 
+  .confirm-button:hover{
+    background-color: rgb(255, 95, 87);
+    }
+
     h1{
         font-size: 4rem;
         font-weight: bold;
