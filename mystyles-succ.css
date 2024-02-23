@@ -1,3 +1,4 @@
+
 @font-face{
     font-family: 'font-roboto-bold';
     src: url('./assets/fonts/Roboto-Bold.ttf') format('truetype');
@@ -34,21 +35,36 @@ main{
 
 
 @media (max-width: 320px){
+
     body{
         background-color: white;
     }
+
+    .svg-container img{
+        margin-top: 50px;
+    }
+
+    .checkMobile{
+        display: block;
+    }
+    .checkDesktop{
+        display: none;
+    }
     
     .confirmation-message {
+        padding: 10px;
         align-items: center;
-
+        margin-top: 30px;
     }
     
     .confirmation-message p {
         margin-bottom: 100px;
+        margin-top: 80px;
+    
     }
     
     .confirm-button {
-        display: flex;
+       
         width: 90%;
         padding: 10px 20px;
         border: none;
@@ -57,16 +73,15 @@ main{
         color: white;
         text-decoration: none;
         cursor: pointer;
-        align-items: end;
-        
+        margin-left: 16px;  
   }
-
-  
 
     h1{
         font-size: 2rem;
         margin-left: 20px;
         margin-top: 20px;
+        display: flex;
+        align-items: center;
     }
 
 }
