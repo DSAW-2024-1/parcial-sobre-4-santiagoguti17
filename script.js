@@ -1,3 +1,4 @@
+var emailInput = document.getElementById("email");
 function saveEmail() {
     localStorage.setItem("emailGuardado", emailInput.value);
 }
