@@ -1,0 +1,27 @@
+.container {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+    
+    .confirmation-message {
+        text-align: center;
+    }
+    
+    .confirmation-message p {
+        margin-bottom: 20px;
+    }
+    
+    .confirm-button {
+        display: inline-block;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #4CAF50;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+  }
