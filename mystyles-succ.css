@@ -1,27 +1,72 @@
-.container {
-        max-width: 500px;
-        margin: 0 auto;
-        padding: 20px;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        background-color: #f9f9f9;
+@font-face{
+    font-family: 'font-roboto-bold';
+    src: url('./assets/fonts/Roboto-Bold.ttf') format('truetype');
+    font-family: "font-roboto-regular";
+    src: url('./assets/fonts/Roboto-Regular.ttf') format('truetype');
+}
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: "font-roboto-bold", "font-roboto-regular";
+    color: hsl(235, 18%, 26%);
+}
+body {
+    background-color: hsl(235, 18%, 26%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*white container box*/
+main{
+    width: 100%;
+    padding: 2rem;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: white;
+}
+
+
+@media (max-width: 320px){
+    body{
+        background-color: white;
     }
     
     .confirmation-message {
-        text-align: center;
+        align-items: center;
+
     }
     
     .confirmation-message p {
-        margin-bottom: 20px;
+        margin-bottom: 100px;
     }
     
     .confirm-button {
-        display: inline-block;
+        display: flex;
+        width: 90%;
         padding: 10px 20px;
         border: none;
         border-radius: 5px;
-        background-color: #4CAF50;
+        background-color: hsl(232, 31%, 20%);
         color: white;
         text-decoration: none;
         cursor: pointer;
+        align-items: end;
+        
   }
+
+  
+
+    h1{
+        font-size: 2rem;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+}
