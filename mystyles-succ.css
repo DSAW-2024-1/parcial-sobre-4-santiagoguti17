@@ -85,3 +85,63 @@ main{
     }
 
 }
+
+@media (min-width: 1024px){
+    body{
+        background-color: hsl(232, 31%, 20%);
+    }
+    .container{
+        padding: 50px;
+        margin: 100px;
+        width: 500px;
+        background-color: white;
+        border-radius: 35px;
+    }
+    .confirmation-message {
+        padding: 0px;
+        align-items: center;
+        margin-top: 30px;
+        
+        
+
+    }
+
+    .checkMobile{
+        display: none;
+    }
+    .checkDesktop{
+        display: block;
+    }
+    
+    .confirmation-message p {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        
+    }
+    
+    .confirm-button {
+       
+        width: 90%;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 10px;
+        background-color: hsl(232, 31%, 20%);
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        margin-left: 16px;
+        font-size: 1rem;
+        
+        
+        
+  }
+
+    h1{
+        font-size: 4rem;
+        font-weight: bold;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+}
