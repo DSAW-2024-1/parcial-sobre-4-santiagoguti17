@@ -75,19 +75,23 @@ main{
             font-size: 1rem;
         }
     }
+    .email-header{
+        font-size: 0.6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
     .email-box {
-        background-color: #f2f2f2;
-        padding: 50px 0;
         text-align: center;
     }
     .email-box input[type="email"] {
+        
         width: 300px;
-        padding: 10px;
-        margin-right: 10px;
-        border: 1px solid #ccc;
+        padding: 10px 10px;
         border-radius: 5px;
         font-size: 18px;
-        align-items: center;
+        margin-left: 1px;
+        
     }
     .sub-box button[type="submit"] {
         background-color: hsl(232, 31%, 20%);
@@ -97,7 +101,8 @@ main{
         border-radius: 5px;
         font-size: 18px;
         cursor: pointer;
-        align-items: center;
+        margin-left: 12px;
+        margin-bottom: 100px;
     }
     .sub-box button[type="submit"]:hover {
         background-color: #444;
