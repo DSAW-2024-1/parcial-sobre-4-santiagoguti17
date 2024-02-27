@@ -29,7 +29,12 @@ Requerimientos:
 
 | Criterio                   | Puntaje |
 | -------------------------- | ------- |
-| Diseño Responsive          | 2       |
-| HTML Semántico             | 1       |
-| Funcionalidad              | 1.5     |
-| Despliegue en Github Pages | 0.5     |
+| Diseño Responsive          | 1/2       |
+| HTML Semántico             | 0.9/1       |
+| Funcionalidad              | 1.4/1.5     |
+| Despliegue en Github Pages | 0.5/0.5     |
+
+Nota parcial: 3.8 x 0.8 -> 3.04
+
+![image](https://github.com/DSAW-2024-1/parcial-sobre-4-santiagoguti17/assets/50994778/fd187b76-e043-4f83-9ed6-9284ccbc5be1)
+
